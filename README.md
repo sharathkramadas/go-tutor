@@ -1,1 +1,1 @@
-# go-tutor
+# Learning GO
