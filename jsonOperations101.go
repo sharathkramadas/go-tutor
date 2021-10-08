@@ -49,7 +49,7 @@ func writeJSONTofile(){
 			fmt.Println("JSON data saved successfully!")
 		}
 	}
-	file.Close()
+	defer file.Close()
 }
 
 func stringToJSON(){
